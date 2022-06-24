@@ -4,32 +4,13 @@ body{
     padding: 0;
 }
 
-#mright {
-    margin-right: 480px;
+.home-mar {
+    margin-left: 400px;
+}
 
-};
-
-<div class="container">
-<div class="row">
-    <div class="d-flex">
-        <div class="d-flex">
-            <button type="button" class="btn btn-floating" style="background-color: antiquewhite;">
-                <i class="fas fa-truck"></i> 
-            </button> &nbsp &nbsp &nbsp &nbsp
-            <p class="text-capitalize " style="margin-top:5px;">Free Shipping </p>
-        </div>
-        <div class="d-flex">
-            <button type="button" class="btn btn-floating" style="background-color: antiquewhite;">
-                <i class="fas fa-clock"></i>
-            </button> &nbsp &nbsp
-            <p style="margin-top:10px;">24X7 Service</p>
-        </div>
-        <div class="d-flex">
-            <button type="button" class="btn btn-floating" style="background-color: antiquewhite;">
-                <i class="fas fa-retweet"></i>
-            </button> &nbsp &nbsp
-            <p style="margin-top:10px;">Free Return</p>
-        </div>
-    </div>
-</div>                        
-</div>
+.nav_2 {
+    margin-left: 60px;
+}
+.body-cream {
+    margin-left: 70px;
+}
