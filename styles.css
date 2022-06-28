@@ -28,6 +28,7 @@ body{
     margin-right: 180px;
 };
 
+
 .follow {
     margin-left: 70px;
 };
@@ -39,3 +40,4 @@ input[type=text] {
     box-sizing: border-box;
     border: none;
     border-bottom: 2px solid red;};
+
