@@ -1,275 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-commerce</title>
-     <!-- Font Awesome -->
-     <link
-     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-     rel="stylesheet"/>
-     <!-- Google Fonts -->
-     <link
-     href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-     rel="stylesheet"/>
-     <!-- MDB -->
-     <link
-     href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css"
-     rel="stylesheet"/>
-     <link rel="stylesheet" href="./styles.css">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
+
 <body>
-    <!-- First Layout -->
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <!-- navbar -->
-                    <nav class="navbar navbar-expand-lg navbar-light shadow-0 topnav " style="background-color: #ffffff;">
-                        <div class="container">
-                            <div class="col-lg-6 col-md-6">
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <a class="navbar-brand mt-2 mt-lg-0" href="#" id="mright">
-                                        <img src="./image/Screenshot (8).png" height="25px" alt="MDB Logo" loading="lazy"/>
-                                        </a> 
-                                    <!-- Left Link -->
-                                    <ul class="navbar-nav me-auto  mb-2 mb-lg-0 " style="font-size: 15px; font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#" style="margin-left: 400px;">Home</a>
-                                        </li>
-                                    </ul>
+
+    <div class="my-5">
+        <div class="row">
+            <div class="curved-bg  col-sm-6 col-6 " id="background" style="background-image: url('./newbackground.jpeg');">
+
+                <img src="/black3-removebg-preview.png" class="beauty1" />
+
+            </div>
+            <div class="col-sm-5 col-5">
+                <div style="display:block" class="p-5">
+                    <h5 style="margin-top:25px">New Arrival<i class="fa-solid fa-seedling"
+                            style="margin-left: 5px;"></i></h5>
+                    <p style="margin-top:15px" class="p">Shop our latest fragrances, seasonal scents, lotions, fine<br>
+                        fragrance mists, shower gels, candles, hand soaps, gifts and more.</p>
+                    <button type="button" class="btn btn-dark" style="border-radius: 20px;" margin-top="10px">View
+                        More</button>
+                    <a class="text-decoration-none text-white fs-6" href="./">View More</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="categories" style="margin-top: -160px;
+    position: relative;">
+            <div class="small-container">
+                <div class="row gy-4" style="
+                margin-left: 10px;
+               margin-right: 10px;
+               width: auto;
+               height: auto;
+           ">
+                    <div class="offset-lg-3 offset-md-3 col-3 col-md-3 col-sm-12">
+                        <div class="card">
+                            <img class="category-images" src="/cosmetic2.png"
+                                style="background-color: rgb(211, 205, 205);border-radius: 16px 16px 0px 0px;" />
+                            <div class="price-button-container d-flex align-items-center justify-content-between p-3">
+                                <div class="title-price">
+                                    <h5>Nigth cream</h5>
+                                    <p class="text-danger">$23.99</p>
+                                </div>
+                                <div class="circle-btn">
+                                    <button type="button" class="btn btn-dark" style="border-radius:50%"><i class="fa-solid fa-arrow-right-long"></i></button>
                                 </div>
                             </div>
                         </div>
-                    </nav>
-                    <button type="button" class="btn btn-light shadow-0 btn-rounded text-capitalize down" style="background-color: antiquewhite; margin-top: 5rem;"><i class="fab fa-pagelines"></i>  Natural Products</button>
-                    <h1 class="my-3 text-dark fw-bold" style=" font-family: 'Abril Fatface', cursive;">Be good to your skin.</h1>
-                    <h3 class="text-dark fw-bolder" style=" font-family: 'Abril Fatface', cursive;">You will wear it everyday for you.</h3>
-                    <p><i class="fas fa-star text-warning" style ="font-size: smaller;"></i>
-                       <i class="fas fa-star text-warning" style ="font-size: smaller;"></i>
-                       <i class="fas fa-star text-warning" style ="font-size: smaller;"></i>
-                       <i class="fas fa-star text-warning"style ="font-size: smaller;"></i>
-                       <i class="far fa-star text-warning"style ="font-size: smaller;"></i> &nbsp
-                       <span style="font-size: 11px; font-family: 'Abril Fatface', cursive;">29 Reviews</span>
-                    </p>
-                    <div class="mt-4">
-                        <p style="font-size: 15px;">Most dematologist agree it is important to cleanse the face twice daily to get bacteria, dirt and pollutant off the skin.</p>
                     </div>
-                    <div class="mt-4">
-                        <p class="fw-bolder fs-5 mt-4">$29.99  &nbsp&nbsp &nbsp &nbsp &nbsp<button type="button" class="btn btn-outline-dark btn-rounded" data-mdb-ripple-color="dark"> - &nbsp &nbsp 1 &nbsp &nbsp +</button> &nbsp &nbsp<button type="button" class="btn btn-rounded bg-dark text-light text-capitalize">Add to cart</button></p> 
-                    </div>
-                   <div class="d-flex mt-5">
-                        <div class="d-flex">
-                            <button type="button" class="btn btn-floating" style="background-color: antiquewhite;">
-                                <i class="fas fa-truck"></i> 
-                            </button> &nbsp &nbsp
-                            <p class="text-capitalize " style="margin-top:5px; font-size: smaller;">Free Shipping </p>
-                        </div> &nbsp &nbsp &nbsp &nbsp
-                        <div class="d-flex">
-                            <button type="button" class="btn btn-floating" style="background-color: antiquewhite;">
-                                <i class="fas fa-clock"></i> 
-                            </button> &nbsp &nbsp
-                            <p class="text-capitalize " style="margin-top:5px; font-size: smaller;">24X7 Service </p>
-                        </div> &nbsp &nbsp &nbsp &nbsp  
-                        <div class="d-flex">
-                            <button type="button" class="btn btn-floating" style="background-color: antiquewhite;">
-                                <i class="fas fa-retweet"></i>
-                            </button> &nbsp &nbsp
-                            <p class="text-capitalize " style="margin-top:5px; font-size: smaller;">Free Return </p>
-                        </div> &nbsp &nbsp &nbsp &nbsp                       
-                   </div>                    
-                </div>
-                <!-- Second layout -->
-                <div class="col-lg-6 col-md-6 " style="background-color: rgba(204, 199, 199, 0.613); height: 600px; width: 50%; border-radius: 0 0 50% 50%; padding-bottom: 400px ;">
-                    <!-- navbar -->
-                    <nav  class="navbar navbar-expand-lg navbar-light shadow-0 nav_2 ;">
-                        <!-- Right link -->
-                        <ul class="navbar-nav me-auto  mb-2 mb-lg-0 " style="font-size: 15px; font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
-                            <li class="nav-item me-4">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item me-3">   
-                                <a class="nav-link" href="#">Shop</a>
-                            </li>
-                            <li class="nav-item me-4">
-                                <a class="nav-link" href="#">Blog</a>
-                            </li>
-                            <li class="nav-item me-4">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
-                                    
-                        <!-- Right elements -->
-                        <div class="d-flex align-items-center">
-                            <!-- Icon -->
-                            <a class="text-reset me-3" href="#">
-                                <i class="fas fa-search"></i>
-                            </a>                    
-                            <a class="text-reset me-3" href="#">
-                                <i class="fa-solid fa-bag-shopping"></i>
-                            </a>
-                            <!-- Avatar -->
-                            <div class="dropdown">
-                                <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-                                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="35" alt="Black and White Portrait of a Man" loading="lazy"/>
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
-                                    <li>
-                                        <a class="dropdown-item" href="#">My profile</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Settings</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Logout</a>
-                                    </li>
-                                </ul>
-                            </div>
-                       </div>
-                   </nav>
-                    <!-- Banner-cream -->
-                    <img src="./image/WhatsApp_Image_2022-06-21_at_9.51.00_AM-removebg-preview.png" width="70%" style="margin-left: 70px;" class="body-cream" alt="body-cream">                                        
-               </div>
-            </div>
-        </div>
-    </section>
 
- <!-- Product section -->
- <section>
- <div class="text-center" style="color: #1A237E;">
- <p>Popular Product</p>
- <h1 style="font-family: serif;" class="fw-bold"><i class="fa-brands fa-pagelines"></i>Meet Our Bestsellers<i class="fa-brands fa-pagelines"></i></h1> 
-</div>
-<div class="d-flex mx-5 align-items-start  " style="height: 100px;">
-    <!-- first column  -->
-    <div class="col position-relative">
-    <div class="position-relative" style="margin-top: 150px; margin-left: 150px; background-color: #E3F2FD; height: 200px; width: 200px; border-radius: 50% 50% 50% 50%;">
-        </div>
-        <img src="./image/cosmetic5x.png" class="position-absolute  translate-middle" style="top: 240px; left: 53%;  height: 400px;  "  alt="body-cream"/>
-    <div class="text-center mt-5">
-       <h2><b> <span style="color: #1A237E; "> Face Care</span> </b></h2> 
-    <p>Lorem ipsum is a placeholder text <br>commonly used</p>
-   
-    <h3 class="fw-bold" style="color: #1A237E">$ 129.00</h3>
-    <button type="button" style="margin-top: 30px; background-color: #1A237E; color: #ffffff;" class="btn  btn-rounded">Buy Now</button>
-    </div>
-    </div>
-    
-    <!-- second column  -->
-    <div class="col position-relative">
-        <div class="position-relative" style="margin-top: 150px; margin-left: 150px; background-color: #E3F2FD; height: 200px; width: 200px; border-radius: 50% 50% 50% 50%;">
-            </div>
-            <img src="./image/cosmetic7.png" class="position-absolute  translate-middle" style="top: 240px; left: 53%;  height: 400px;  "  alt="body-cream"/>
-        <div class="text-center mt-5">
-           <h2><b> <span style="color: #1A237E;">Bath & Body</span> </b></h2> 
-        <p>Lorem ipsum is a placeholder text <br>commonly used</p>
-       
-        <h3 class="fw-bold" style="color: #1A237E">$ 199.00</h3>
-        <button type="button" style="margin-top: 30px; background-color: #1A237E; color: #ffffff;" class="btn  btn-rounded">Buy Now</button>
-        </div>
-        </div>
-    <!-- third column  -->
-    <div class="col position-relative">
-        <div class="position-relative" style="margin-top: 150px; margin-left: 150px; background-color: #E3F2FD; height: 200px; width: 200px; border-radius: 50% 50% 50% 50%;">
-            </div>
-            <img src="./image/cosmetic6x.png" class="position-absolute  translate-middle" style="top: 260px; left: 53%;  height: 400px;  "  alt="body-cream"/>
-        <div class="text-center mt-5">
-           <h2><b> <span style="color: #1A237E;">Skin Care</span> </b></h2> 
-        <p>Lorem ipsum is a placeholder text <br>commonly used</p>
-       
-        <h3 class="fw-bold" style="color: #1A237E">$ 219.00</h3>
-        <button type="button" style="margin-top: 30px; background-color: #1A237E; color: #ffffff;" class="btn btn-rounded">Buy Now</button>
-        </div>
-        </div>
-  </div>
-</section>
+                    <div class="col-3 col-md-3  col-sm-12">
+                        <div class="card">
 
-
-    <!-- Section 4  Layout-->
-    <div class="container">
-        <!-- Product 4 -->
-        <div class="bg-image d-flex justify-content-center align-items-center image-responsive" style=" background-image: url('./image/Grp1\ \(3\).png'); height: 80vh;">
-        </div>
-    </div>
-    <br>  <br>  <br>  <br>
-    <div class="container fw-bold text-center" style="background-color: #FFFFFF; padding-top: 10px;"> 
-        <h2 id="instagram" style=" font-family: 'Abril Fatface', cursive; margin-bottom: 20px;">Instagram Feed </h2> 
-    </div>
-    <!-- The four images -->
-
-            <div class="d-flex container" style="position: relative; top: 120px;">
-                <img src="./image/cosmetic9.jpg" class="" style="border-radius: 20px; margin-left: 90px;" width="19%" alt="comestics">
-                <img src="./image/woman.jpg" style="border-radius: 20px; margin-left: 50px;" width="17%" alt="woman">
-                <img src="./image/cosmetic8.jpg" style="border-radius: 20px; margin-left: 50px;" width="17%" alt="comestics">
-                <img src="./image/cosmetic10.jpg" style="border-radius: 20px; margin-left: 50px;" width="17%" alt="comestics">
-            </div>
-      
-       <footer  class=" container text-white" style="background-color: rgb(22, 30, 53); height: 60vh; padding-top: 170px;">   
-            <div class="container">
-                <div class="d-flex">
-                    <div style="padding-left: 25px;">
-                        <h6>Newsletter</h6>
-                        <p class="fw-lighter" style="font-size: 10px;">Lorem, ipsum dolor sit amet consectetur adipisicing <br> elit, Animi quidem </p>
-                        <div class="input-group">
-                            <input type="search" class="form-control rounded"  aria-label="Search" aria-describedby="search-addon" />
-                            <button type="button" class="btn text-white" style="background-color: #f24b9c;">Submit</button>
-                          </div>
-                    </div>
-                    <div class="" style="padding-left: 135px;">
-                        <h6>Quick Contact</h6>
-                        <p class="fw-lighter" style="font-size: 10px;">Lorem, ipsum dolor sit amet consectetur adipisicing <br> elit, Animi quidem </p>
-                        <i class="fas fa-phone fs-2" style="background-color: #f24b9c;"></i> 
-                        <a href="tel:+2348142827949" class="text-white" style="margin-left: 20px;">+2348142827949</a>
-                    </div>
-                    <div  style="padding-left: 270px;">
-                        <h6>Follow us</h6>
-                        <div class="d-flex">
-                            <div>
-                                <a
-                                class="btn btn-primary btn-floating m-1"
-                                style="background-color: #f24b9c;"
-                                href="#!"role="button"><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <!-- Facebook -->
-                            <div>
-                                <a
-                                class="btn btn-primary btn-floating m-1"
-                                style="background-color: #f24b9c;"
-                                href="#!"
-                                role="button"
-                                ><i class="fab fa-facebook-f"></i></a>
-                            </div>
-                              <!-- Twitter -->
-                            <div>
-                                 <a
-                                 class="btn btn-primary btn-floating m-1"
-                                 style="background-color: #f24b9c;"
-                                 href="#!"
-                                 role="button"
-                                 ><i class="fab fa-twitter"></i
-                               ></a>
-                            </div>
-                        </div>
-                        
-                        
+                            <img class="category-images" src="/cosmetic4-removebg-preview.png"
+                                style="background-color:lightgray ;">
+                                <div class="price-button-container d-flex align-items-center justify-content-between p-3">
+                                    <div class="title-price">
+                                        <h5>Organic cream</h5>
+                                        <p class="text-danger">$43.99</p>
+                                        </div>
+                                        <div class="circle-btn">
+                                            <button type="button" class="btn btn-dark" style="border-radius:50%"><i class="fa-solid fa-arrow-right-long"></i></button>
+                                        </div>
                         </div>
                     </div>
+                    </div>
+
+                    <div class="col-3 col-md-3  col-sm-12">
+                        <div class="card" style="border-radius:10px" width="35px">
+                            <img class="category-images" src="/cosmetic15-removebg-preview.png"
+                                style="background-color: lightgray;">
+                                <div class="price-button-container d-flex align-items-center justify-content-between p-3">
+                                    <div class="title-price">
+                                     <h5>Under Eye Gel</h5>
+                                     <p class="text-danger">$26.99</p>
+                                     </div>
+                                     <div class="circle-btn">
+                                        <button type="button" class="btn btn-dark" style="border-radius:50%"><i class="fa-solid fa-arrow-right-long"></i></button>
+                                     </div>
+
+                        </div>
+
+                    </div>
                 </div>
-                    <hr style="margin-top: 60px;">
-                 <!-- Copyright -->
-                 <div class="text-center p-3" style="background-color: rgba(22, 30, 53,); font-size:13px; margin-bottom: 80px;">
-                    © 2022 Copyright Beauty:
-                    <a class="text-white fw-lighter" href="/">Eleyas Hasan All Right Reserved</a>
-                  </div>
-                  <!-- Copyright -->       
-      </footer>
-    <script
-        type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js">
-    </script>
+            </div>
+        </div>
+
+    </div>
+
 </body>
+
 </html>
